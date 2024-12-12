@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/loginBackground.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.outer{
+    width: 420px;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    /* backdrop-filter: blur(20px); */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+.outer h1{
+    font-size: 36px;
+    text-align: center;
+}
+.outer .input-box{
+    position: relative;
+    width: 100%;
+    height: 50p;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: white;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 34%;
+    transform: translateZ(-50%);
+    font-size: 20px;
+}
+.outer .forgot-remember{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0px 15px;
+}
+.forgot-remember label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+.forgot-remember a{
+    color: white;
+    text-decoration: none;
+}
+.forgot-remember a:hover{
+    text-decoration: underline;
+}
+.outer .button{
+    width: 100%;
+    height: 45px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, -1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.outer .register{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0px 15px;
+}
+.register p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+    
+}
